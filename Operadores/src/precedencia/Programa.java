@@ -1,0 +1,15 @@
+package precedencia;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		int resultado1 = 2 + 3 * 4;
+		System.out.println(resultado1);
+		
+		int resultado2 = (2 + 3) * 4;
+		System.out.println(resultado2);
+
+	}
+
+}
